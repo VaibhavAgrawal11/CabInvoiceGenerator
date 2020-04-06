@@ -1,7 +1,11 @@
 package com.bridgelabz.serivice;
 
+import com.bridgelabz.adaptor.IInvoiceGenerator;
+import com.bridgelabz.adaptor.InvoiceFactory;
+
 public class CabService {
-    public static void main(String[] args) {
-        System.out.println("Welcome to cab invoice generator problem statement.");
+    public double calculateYourFare(double distance, double time){
+        IInvoiceGenerator invoiceCalculator = InvoiceFactory.getInvoiceData();
+        return invoiceCalculator.calculateFare(distance,time);
     }
 }
