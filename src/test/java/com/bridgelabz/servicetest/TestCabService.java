@@ -1,6 +1,7 @@
 package com.bridgelabz.servicetest;
 
 import com.bridgelabz.serivice.CabService;
+import com.bridgelabz.utility.InvoiceSummary;
 import com.bridgelabz.utility.Ride;
 import org.junit.Assert;
 import org.junit.Before;
@@ -27,11 +28,37 @@ public class TestCabService {
     }
 
     @Test
-    public void test2() {
-
+    public void givenMultipleRides_ShouldReturnInvoiceSummary() {
         Ride[] rides = {new Ride(2.0, 5),
                 new Ride(0.1, 1)};
-        double totalFare = cabService.calculateYourFare(rides);
-        Assert.assertEquals(30, totalFare, 0);
+        InvoiceSummary summary = cabService.calculateYourFare(rides);
+        InvoiceSummary expectedInvoiceSummary = new InvoiceSummary(2, 30);
+        Assert.assertEquals(summary, expectedInvoiceSummary);
+    }
+
+    @Test
+    public void givenMultipleRides_ShouldReturnInvoiceSummaryTotalFare() {
+        Ride[] rides = {new Ride(2.0, 5),
+                new Ride(5, 10)};
+        InvoiceSummary summary = cabService.calculateYourFare(rides);
+        Assert.assertEquals(85, summary.totalFare, 0);
+    }
+
+    @Test
+    public void givenMultipleRides_ShouldReturnInvoiceSummaryNumberOfRide() {
+        Ride[] rides = {new Ride(2.0, 5),
+                new Ride(5, 10),
+                new Ride(3, 5)};
+        InvoiceSummary summary = cabService.calculateYourFare(rides);
+        Assert.assertEquals(3, summary.numOfRides,0);
+    }
+
+    @Test
+    public void givenMultipleRides_ShouldReturnInvoiceSummaryAverageFare() {
+        Ride[] rides = {new Ride(2.0, 5),
+                new Ride(5, 10),
+                new Ride(3, 5)};
+        InvoiceSummary summary = cabService.calculateYourFare(rides);
+        Assert.assertEquals(40, summary.averageFare,0);
     }
 }

@@ -2,6 +2,7 @@ package com.bridgelabz.serivice;
 
 import com.bridgelabz.adaptor.IInvoiceGenerator;
 import com.bridgelabz.adaptor.InvoiceFactory;
+import com.bridgelabz.utility.InvoiceSummary;
 import com.bridgelabz.utility.Ride;
 
 public class CabService {
@@ -13,8 +14,8 @@ public class CabService {
         return totalFare;
     }
 
-    public double calculateYourFare(Ride[] rides) {
+    public InvoiceSummary calculateYourFare(Ride[] rides) {
         Double totalFare = invoiceCalculator.calculateFare(rides);
-        return totalFare;
+        return new InvoiceSummary(rides.length,totalFare);
     }
 }
