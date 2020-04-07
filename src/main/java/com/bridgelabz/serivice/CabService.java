@@ -18,4 +18,12 @@ public class CabService {
         Double totalFare = invoiceCalculator.calculateFare(rides);
         return new InvoiceSummary(rides.length,totalFare);
     }
+
+    public void addRides(String userId, Ride[] rides) {
+        invoiceCalculator.addRides(userId,rides);
+    }
+
+    public InvoiceSummary getInvoiceSummary(String userId) {
+        return invoiceCalculator.getInvoiceSummary(userId);
+    }
 }

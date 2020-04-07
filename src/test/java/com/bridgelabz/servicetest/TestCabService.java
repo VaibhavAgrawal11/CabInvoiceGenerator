@@ -50,7 +50,7 @@ public class TestCabService {
                 new Ride(5, 10),
                 new Ride(3, 5)};
         InvoiceSummary summary = cabService.calculateYourFare(rides);
-        Assert.assertEquals(3, summary.numOfRides,0);
+        Assert.assertEquals(3, summary.numOfRides, 0);
     }
 
     @Test
@@ -59,6 +59,18 @@ public class TestCabService {
                 new Ride(5, 10),
                 new Ride(3, 5)};
         InvoiceSummary summary = cabService.calculateYourFare(rides);
-        Assert.assertEquals(40, summary.averageFare,0);
+        Assert.assertEquals(40, summary.averageFare, 0);
+    }
+
+    @Test
+    public void givenUserIdAndRides_ShouldReturnInvoiceSummary() {
+        String userId = "Yoyo12";
+        Ride[] rides = {new Ride(2.0, 5),
+                new Ride(5, 10),
+                new Ride(3, 5)};
+        cabService.addRides(userId,rides);
+        InvoiceSummary summary = cabService.getInvoiceSummary(userId);
+        InvoiceSummary expectedSummary = new InvoiceSummary(3,120);
+        Assert.assertEquals(expectedSummary,summary);
     }
 }
