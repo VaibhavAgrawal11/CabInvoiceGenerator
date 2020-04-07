@@ -70,7 +70,7 @@ public class TestCabService {
     }
 
     @Test
-    public void givenPremimumRides_ShouldReturnPremimumInvoiceSummary() {
+    public void givenPremiumRides_ShouldReturnPremiumInvoiceSummary() {
         CabService premiumCabService = new CabService(CabService.RideType.PREMIUM_RIDE);
         String userId = "Yoyo12";
         Ride[] rides = {new Ride(2.0, 5),
