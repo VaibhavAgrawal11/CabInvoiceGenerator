@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bridgelabz.servicetest.TestCabService" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-04-07T12:18:50" hostname="vaibhav-Satellite-L655" time="0.009">
+  <properties/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummaryTotalFare" classname="com.bridgelabz.servicetest.TestCabService" time="0.003"/>
+  <testcase name="givenLessDistanceAndTime_ShouldReturnMinimumFare" classname="com.bridgelabz.servicetest.TestCabService" time="0.0"/>
+  <testcase name="givenUserIdAndRides_ShouldReturnInvoiceSummary" classname="com.bridgelabz.servicetest.TestCabService" time="0.0"/>
+  <testcase name="givenPremimumRides_ShouldReturnPremimumInvoiceSummary" classname="com.bridgelabz.servicetest.TestCabService" time="0.0"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare" classname="com.bridgelabz.servicetest.TestCabService" time="0.001"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummaryNumberOfRide" classname="com.bridgelabz.servicetest.TestCabService" time="0.0"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummaryAverageFare" classname="com.bridgelabz.servicetest.TestCabService" time="0.0"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummary" classname="com.bridgelabz.servicetest.TestCabService" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

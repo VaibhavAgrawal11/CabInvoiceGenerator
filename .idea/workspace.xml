@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1438864f-7e59-4dae-9697-1a4b31349d97" name="Default Changelist" comment="" />
+    <list default="true" id="1438864f-7e59-4dae-9697-1a4b31349d97" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/adaptor/InvoiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/adaptor/InvoiceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/adaptor/InvoiceGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/adaptor/InvoiceGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/serivice/CabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/serivice/CabService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/servicetest/TestCabService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/servicetest/TestCabService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +25,16 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -19,7 +42,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1a9KrtpQLAgCiiKOVL1gTfR8ccp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +54,127 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bridgelabz.utility" />
+      <recent name="com.bridgelabz.adaptor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestCabService">
+    <configuration name="TestCabService" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.servicetest.TestCabService&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCabService.givenDistanceAndTime_ShouldReturnTotalFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.servicetest.TestCabService.givenDistanceAndTime_ShouldReturnTotalFare&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCabService.givenMultipleRides_ShouldReturnInvoiceSummary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.servicetest.TestCabService.givenMultipleRides_ShouldReturnInvoiceSummary&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCabService.givenMultipleRides_ShouldReturnInvoiceSummaryTotalFare" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.servicetest.TestCabService.givenMultipleRides_ShouldReturnInvoiceSummaryTotalFare&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCabService.givenPremimumRides_ShouldReturnPremimumInvoiceSummary" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.bridgelabz.servicetest.TestCabService.givenPremimumRides_ShouldReturnPremimumInvoiceSummary&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestCabService" />
+        <item itemvalue="Gradle.TestCabService.givenPremimumRides_ShouldReturnPremimumInvoiceSummary" />
+        <item itemvalue="Gradle.TestCabService.givenDistanceAndTime_ShouldReturnTotalFare" />
+        <item itemvalue="Gradle.TestCabService.givenMultipleRides_ShouldReturnInvoiceSummaryTotalFare" />
+        <item itemvalue="Gradle.TestCabService.givenMultipleRides_ShouldReturnInvoiceSummary" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,9 +190,88 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="379" y="89" key="search.everywhere.popup" timestamp="1586142725813">
+    <state x="311" y="58" width="847" height="677" key="#Project_Structure" timestamp="1586163130502">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="379" y="89" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1586142725813" />
+    <state x="311" y="58" width="847" height="677" key="#Project_Structure/67.27.1299.741@67.27.1299.741" timestamp="1586163130502" />
+    <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1586240164395">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="125" width="1099" height="543" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1299.741@67.27.1299.741" timestamp="1586240164395" />
+    <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser" timestamp="1586237404901">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="524" y="108" width="374" height="577" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1586237404901" />
+    <state x="449" y="174" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586181710775">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="449" y="174" width="524" height="444" key="#com.intellij.ide.util.PackageChooserDialog/67.27.1299.741@67.27.1299.741" timestamp="1586181710775" />
+    <state x="234" y="324" width="954" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586181984754">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="234" y="324" width="954" height="145" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/67.27.1299.741@67.27.1299.741" timestamp="1586181984754" />
+    <state x="418" y="27" width="587" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586182710188">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="418" y="27" width="587" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1586182710188" />
+    <state width="1253" height="343" key="GridCell.Tab.0.bottom" timestamp="1586261933674">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="343" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586261933674" />
+    <state width="1253" height="343" key="GridCell.Tab.0.center" timestamp="1586261933673">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="343" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1586261933673" />
+    <state width="1253" height="343" key="GridCell.Tab.0.left" timestamp="1586261933673">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="343" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1586261933673" />
+    <state width="1253" height="343" key="GridCell.Tab.0.right" timestamp="1586261933674">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="343" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1586261933674" />
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1586261852091">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1586261852091" />
+    <state width="1253" height="219" key="GridCell.Tab.1.center" timestamp="1586261852091">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1586261852091" />
+    <state width="1253" height="219" key="GridCell.Tab.1.left" timestamp="1586261852090">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1586261852090" />
+    <state width="1253" height="219" key="GridCell.Tab.1.right" timestamp="1586261852091">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1253" height="219" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1586261852091" />
+    <state x="488" y="176" width="446" height="440" key="chooseDestDirectoryDialog" timestamp="1586187939353">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="488" y="176" width="446" height="440" key="chooseDestDirectoryDialog/67.27.1299.741@67.27.1299.741" timestamp="1586187939353" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1586179575614">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1586179575614" />
+    <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1586162372013">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="461" y="27" width="500" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1586162372013" />
+    <state x="380" y="175" key="run.anything.popup" timestamp="1586236409850">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="380" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1586236409850" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586226382701">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1586226382701" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="userId" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
